@@ -1,0 +1,28 @@
+.Board-item {
+  position: relative;
+  margin: 5px 0;
+  background-color: white;
+  padding: 10px 30px;
+  text-align: left;
+}
+
+.Board-item .arrow {
+  display: block;
+  position: absolute;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Board-item .arrow.hidden {
+  display: none;
+}
+
+.Board-item .arrow.left {
+  top: 10px;
+  left: 10px;
+}
+
+.Board-item .arrow.right {
+  top: 10px;
+  right: 10px;
+}
